@@ -1,4 +1,4 @@
-import { DrawSVGPlugin} from "./DrawSVGPlugin"
+import { DrawSVGPlugin} from "./DrawSVGPlugin.js"
 function animateArrow () {
   let drawArrow = document.querySelector('[data-path="button-arrow"]');
   let tl = gsap.timeline({ 
