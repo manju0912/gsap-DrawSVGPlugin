@@ -1,3 +1,4 @@
+import { DrawSVGPlugin } from './DrawSVGPlugin.js'
 const tl = gsap
   .timeline({
     repeat: -1,
