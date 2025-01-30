@@ -5,8 +5,8 @@ function animateArrow () {
     duration: 1, 
     ease: "linear", 
   });
-  tl.fromTo(drawArrow, { 
-    drawSVG: "0% 100%",
+  tl.from(drawArrow, { 
+    drawSVG: "100% 100%",
     stagger: 0.5, 
     duration:2, 
   });
